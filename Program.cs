@@ -20,5 +20,12 @@ internal class Program
             Console.WriteLine(current); 
             current = random.Next(1,11);
         };
+     
+        RolePlayingGame rolePlayingGame= new ();
+        rolePlayingGame.Fight();
+
+        UserInput userInput = new();
+        userInput.ReadResult();
+     
     }
 }
